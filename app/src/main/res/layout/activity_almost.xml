@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlmostActivity"
+    android:background="@color/light_blue">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/almost_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/transparent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_almost"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/field_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/almost_greeting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_base"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/almost_margin"/>
+        <Button
+            android:id="@+id/btnVerify"
+            android:onClick="sendVerificationCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:background="@drawable/btn_outline_light"
+            android:textColor="@color/btn_light"
+            android:text="@string/verify"
+            style="@style/Theme.Bloodshare.Borderless" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

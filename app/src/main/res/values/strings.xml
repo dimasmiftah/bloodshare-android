@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Bloodshare</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="field_username">Username</string>
+    <string name="field_password">Password</string>
+    <string name="field_repassword">Retype Password</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone">Phone Number</string>
+    <string name="field_blood_type">Blood Type</string>
+    <string name="field_job">Job</string>
+    <string name="field_home_addr">Home Address</string>
+    <string name="field_default_loc">Default Location</string>
+    <string name="field_reshus">Reshus</string>
+    <string name="text_personal">Personal</string>
+    <string name="text_organziation">Organization</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_or">OR</string>
+    <string name="text_login_fb">Connect with Facebook</string>
+    <string name="register_text">doesn\'t have account? <b>Register</b></string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="text_aggreement">Aggree with Terms and Conditions</string>
+    <string name="send">Send</string>
+
+    <string name="title_almost">Almost There</string>
+    <string name="almost_greeting">Thank you for registering with us. One more step, you need to check your email to activate your account</string>
+    <string name="verify_sent">We have send verification code to your email</string>
+    <string name="enter_verify_code">enter verification code here</string>
+    <string name="no_verif_code">Doesn\t get the code? <b>Resend</b></string>
+    <string name="verify">Verify</string>
+    <string name="verify_title">Verify your Account</string>
+    <string name="verify_send">Send</string>
+
+
+    <string name="home_author_name">Dimas Miftahul Huda</string>
+    <string name="home_blood_type">Blood Type: B</string>
+    <string name="counter_blood_give">Blood Give</string>
+    <string name="counter_blood_received">Blood Received</string>
+    <string name="counter_thanks">Thanks</string>
+
+    <string name="menu_search_donor">Search Donor</string>
+    <string name="menu_search_donor_sub">Search donor near you</string>
+    <string name="menu_blood_needed">Blood Needed</string>
+    <string name="menu_blood_needed_sub">4 Users need blood</string>
+    <string name="menu_message">Message</string>
+    <string name="menu_message_sub">5 New Messages</string>
+    <string name="menu_donor_history">Donor History</string>
+    <string name="menu_donor_history_sub">5 Gives, 2 Received</string>
+
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>Positif</item>
+        <item>Negatif</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item>Job</item>
+        <item>Wirausaha</item>
+        <item>Karyawan</item>
+        <item>Buruh</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string name="article">
+        Suspendisse quis turpis vulputate, consequat leo sit amet, placerat ipsum. Maecenas elementum ex non auctor facilisis. Nullam gravida elit id aliquet sodales. Curabitur efficitur gravida tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed neque eu lacus tempus mattis vitae ut sem. Morbi blandit vehicula nulla, at ornare lectus sodales nec. Vivamus ac quam eu ex consequat venenatis. Nam nec tellus varius, blandit diam nec, faucibus elit. Donec vestibulum velit arcu, porttitor commodo mi interdum nec. Etiam arcu ante, tincidunt vel tortor vel, semper mollis quam. Nulla lacinia volutpat commodo. Integer ut ante elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris eu posuere mauris.
+
+Duis et libero odio. Nunc sapien arcu, ultrices eu porta at, ullamcorper non ligula. Sed sodales nunc ut viverra rhoncus. Morbi blandit magna commodo lectus blandit, in mollis felis pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed cursus, mi ut varius sagittis, turpis mi hendrerit velit, at pulvinar elit metus a ante. Maecenas condimentum ligula tortor, vitae aliquet metus efficitur at. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum lacinia odio non molestie tempor. Fusce vitae nibh interdum, aliquet massa at, euismod dui. Proin nisl orci, sollicitudin ut justo pulvinar, pharetra commodo sem. Mauris iaculis mauris id nunc ultrices, eget iaculis elit cursus.
+
+Curabitur felis felis, euismod et dapibus eu, semper sit amet est. Morbi non felis posuere, accumsan felis eu, auctor odio. Maecenas fringilla sem purus, ac porta turpis posuere at. In sed libero vitae quam ultrices interdum sed vitae dolor. In efficitur diam a arcu fringilla, sagittis tempus ante fermentum. Duis molestie tellus nec ipsum finibus vulputate a eu velit. Phasellus dignissim sapien eget aliquet efficitur. Duis interdum auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper tortor ac facilisis ullamcorper. Fusce aliquam in lorem ut ornare. Etiam tempor, ligula et faucibus posuere, lectus ex congue est, vel varius diam metus id neque. Duis volutpat urna sed rutrum varius.
+    </string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.dimasmiftah.bloodshare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bloodshare">
+        <activity android:name="me.dimasmiftah.bloodshare.VerifyActivity" android:theme="@style/Theme.Bloodshare.NoActionBar"/>
+        <activity
+            android:name="me.dimasmiftah.bloodshare.AlmostActivity"
+            android:theme="@style/Theme.Bloodshare.NoActionBar" />
+        <activity
+            android:name="me.dimasmiftah.bloodshare.RegisterActivity"
+            android:theme="@style/Theme.Bloodshare.NoActionBar" />
+        <activity
+            android:name="me.dimasmiftah.bloodshare.LoginActivity"
+            android:theme="@style/Theme.Bloodshare.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="me.dimasmiftah.bloodshare.MainActivity" android:theme="@style/Theme.Bloodshare.NoActionBar" />
+    </application>
+
+</manifest>
